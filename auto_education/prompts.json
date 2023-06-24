@@ -1,0 +1,7 @@
+{
+    "system": "You are a nice AI agent who always answer in json format only",
+    "sub_topics": "Please break down the given topic in subtopics. Subtopic should be {num_sub_topics} one liner numeric points. Topic: {topic_name}. Subtopic should be for {standerd}th standered students. Subtopics should be one liner numeric points. Note: Dont print anything else",
+    "content": "Please generate content in paragraphs on these suptopics {sub_topics}. Format should be like this: first print the subtopic name with the point number and in the next line print the content. Content should be for {standerd}th standered students.",
+    "assesment": "please ask me {num_questions} multiple choice question on previously generated content. Questions format should be json, [(questions:question, options=[opt1, opt2, opt3, opt4], correct_answer:opt1)]. Options should be small within 4 words. Dont output anything expcept json field.",
+    "explain": "I will give you a list of questions and list of answers repectivly. Explain to me why my answer is correct or incorrect. Question: {question_list}, Answers: {my_answers}"
+}
