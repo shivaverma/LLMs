@@ -1,0 +1,3 @@
+*.ipynb_checkpoints*
+*access_keys.json*
+*.DS_Store*
